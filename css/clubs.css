@@ -5,45 +5,66 @@ body {
    
   background-color: #edf0f1;
 }
+.ab-nav {
+  color: #414040;
+  font-size: 40px;
+  font-family: "Reggae One", cursive;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+  top: 20px;
+  right: 80px;
+}
 .logo {
-  margin: 10px;
-  margin-left: 20px;
+  margin: 5px;
+  margin-left: 30px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
   float: left;
 }
+/* code for navigation bar starts */
 .nav-bar {
-  background:  #bd5d3f;
+  background: #494949;
   text-align: right;
-  height: 150px;
+  height: 75px;
+  width: 100%;
   align-items: center;
+  position: absolute;
+  top: 125px;
 }
 .nav-bar ul {
   display: inline-block;
   list-style: none;
-  margin-right: 60px;
+  margin-right: 150px;
 }
 .nav-bar ul li {
   text-align: center;
   float: left;
   width: 150px;
-  margin: 45px;
+  margin: 10px;
+  margin-right: 110px;
   padding: 15px;
   border-radius: 5px;
-  color: white;
 }
 .nav-bar ul li a {
   text-decoration: none;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   font-size: 20px;
+  font-weight: bold;
 }
-.clubs,
+.home,
 .nav-bar ul li:hover {
-  text-decoration: underline;
-  background: #af3a00;
+  background: yellow;
   border-radius: 3px;
+  color: #414040;
+}
+.nav-bar .home a,
+.nav-bar ul li a:hover {
+  color: #414040;
 }
 .nav-bar .fa {
   margin-right: 3px;
@@ -105,7 +126,7 @@ align-items: center;
 .container .card .box .content{
   padding: 20px;
   text-align: justify;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
@@ -138,7 +159,7 @@ transition: 0.5s;
 }
 .container .card:hover .box .content h3{
   transition: 0.25s;
-font-size: 1.5cm;
+font-size: 1cm;
 color:  #bd5d3f;
 z-index: 0.5;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -149,7 +170,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: rgb(116, 110, 110);
 z-index: 0.5;
 zoom: 1;
-font-family: 'Times New Roman', Times, serif;
+font-family: sans-serif;
 
 
 }
