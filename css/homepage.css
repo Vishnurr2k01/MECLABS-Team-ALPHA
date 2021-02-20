@@ -195,13 +195,13 @@ body {
 }
 .box1 {
   border-radius: 35px;
-  background: linear-gradient(145deg, #fffefe, #ffffff);
+  background: linear-gradient(145deg, #cecbcb, #ffffff);
   box-shadow: 11px 11px 0px #919191, -11px -11px 0px rgba(0, 0, 0, 0.2);
   position: relative;
-  top: -30px;
-  left: 15vw;
-  height: 500px;
-  width: 500px;
+  top: -70px;
+  left: 10vw;
+  height: 350px;
+  width: 350px;
   float: left;
   text-align: center;
   color: rgba(0, 0, 0, 0.925);
@@ -213,13 +213,13 @@ body {
 }
 .box2 {
   border-radius: 35px;
-  background: linear-gradient(145deg, #fffefe, #ffffff);
+  background: linear-gradient(145deg, #cecbcb, #ffffff);
   box-shadow: 11px 11px 0px #919191, -11px -11px 0px rgba(0, 0, 0, 0.2);
   position: relative;
-  top: -30px;
-  right: 15vw;
-  height: 500px;
-  width: 500px;
+  top: -70px;
+  right: 10vw;
+  height: 350px;
+  width: 350px;
   float: right;
   text-align: center;
   color: rgb(0, 0, 0);
