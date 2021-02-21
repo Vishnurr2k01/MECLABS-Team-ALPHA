@@ -98,15 +98,28 @@ body {
   background-repeat: no-repeat;
 }
 /* slide show starts */
+.slider-heading {
+  text-align: center;
+  margin-top: 600px;
+  clear: both;
+  background: #cecbcb;
+  outline: 3px solid rgb(66, 66, 66);
+  outline-offset: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #414040;
+}
 .slider {
-  position: absolute;
-  top: 2000px;
-  right: 50%;
+  position: relative;
+  top: 150px;
+  left: 50%;
   width: 800px;
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
 .slides {
   width: 500%;
@@ -184,15 +197,7 @@ body {
 }
 /* code for automatic transiton ends*/
 /* code for slideshow ends */
-.slider-heading {
-  text-align: center;
-  clear: left;
-  float: left;
-  margin-top: 50px;
-  margin-left: 30px;
-  font-family: "Reggae One", cursive;
-  color: #414040;
-}
+
 .box1 {
   border-radius: 35px;
   background: linear-gradient(145deg, #cecbcb, #ffffff);
