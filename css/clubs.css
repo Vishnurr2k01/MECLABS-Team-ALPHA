@@ -11,20 +11,19 @@ body {
   box-sizing: border-box;
 }
 .ab-nav {
+  position: relative;
+  left: calc(50% - 250px);
   color: #414040;
   font-size: 40px;
   font-family: "Reggae One", cursive;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin-top: 5px;
-  position: relative;
-  top: 20px;
-  right: 80px;
 }
 .logo {
-  margin: 5px;
-  margin-left: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -36,8 +35,7 @@ body {
   height: 75px;
   width: 100%;
   align-items: center;
-  position: absolute;
-  top: 125px;
+  clear: left;
 }
 .nav-bar ul {
   display: inline-block;
